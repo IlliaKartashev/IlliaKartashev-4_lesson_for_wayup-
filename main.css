@@ -1,0 +1,174 @@
+	body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+h2, h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 100px;
+	padding-bottom: 135px;
+	color: #fff;
+
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 176px;
+	width: 800px;
+}
+
+.title {
+	font-size: 35px;
+}
+
+.title span {
+	font-weight: 900;
+	font-size: 50px;
+}
+
+.intro {
+	margin-bottom: 45px;
+	margin-top: 50px;
+	width: 364px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #fdd429;
+	color: #010101;
+	display: block;
+	width: 230px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #e8c127;
+}
+
+.desktop {
+	margin-top: 65px;
+}
+
+.learn {
+	padding-top: 110px;
+	padding-bottom: 130px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	text-align: center;
+	border: 100px;
+}
+
+.skill {
+	width: 450px;
+	background: url('icon1.jpg') no-repeat top;
+	padding-top: 120px;
+	border-right: 250px;
+}
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 255px;
+	background: url('icon2.jpg') no-repeat top;
+}
+
+.skill-change {
+	background: url('icon3.jpg') no-repeat top;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+
+.form {
+	margin-top: 40px;
+	display: block;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	height: 54px;
+	padding-left: 20px;
+	display: block;
+	margin-left: 425px;
+	margin-top: 8px;
+
+
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	margin-left: 480px;
+	margin-top: 8px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+}
+
+.credits {
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+}
